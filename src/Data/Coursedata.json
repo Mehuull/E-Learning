@@ -1,0 +1,61 @@
+[
+  {
+    "courseimg": "https://images.pexels.com/photos/6694543/pexels-photo-6694543.jpeg",
+    "Category": "Business & Management",
+    "description": "Learn strategies to build and lead successful organizations",
+    "userdp": "https://tabler.io/_next/image?url=%2Favatars%2Fdefault%2F50382765fd5648c7876d91cc37b27394.png&w=280&q=75",
+    "username": "Sophia Carter",
+    "userposition": "Business Consultant",
+    "lessons": "28 lessons",
+    "students": "150 students"
+  },
+  {
+    "courseimg": "https://images.pexels.com/photos/3182774/pexels-photo-3182774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "Category": "IT & Computer Science",
+    "description": "Master full-stack web development with hands-on projects",
+    "userdp": "https://tabler.io/_next/image?url=%2Favatars%2Fdefault%2F2244af71ad0c25f2cb0a8efa167491fb.png&w=280&q=75",
+    "username": "Liam Anderson",
+    "userposition": "Software Engineer",
+    "lessons": "40 lessons",
+    "students": "200 students"
+  },
+  {
+    "courseimg": "https://images.pexels.com/photos/4031322/pexels-photo-4031322.jpeg",
+    "Category": "Healthcare & Medicine",
+    "description": "Understand the basics of human anatomy and medical terminology",
+    "userdp": "https://tabler.io/_next/image?url=%2Favatars%2Fdefault%2Fed7055b68adec22bfa8a88d441e83e9a.png&w=280&q=75",
+    "username": "Dr. Olivia Martinez",
+    "userposition": "Medical Practitioner",
+    "lessons": "35 lessons",
+    "students": "120 students"
+  },
+  {
+    "courseimg": "https://images.pexels.com/photos/3822220/pexels-photo-3822220.jpeg",
+    "Category": "Sports & Fitness",
+    "description": "Achieve your fitness goals with personalized workout plans",
+    "userdp": "https://tabler.io/_next/image?url=%2Favatars%2Fdefault%2F60467e1ae6f97acb8964f5aa617c7ecb.png&w=280&q=75",
+    "username": "Ethan Davis",
+    "userposition": "Fitness Trainer",
+    "lessons": "25 lessons",
+    "students": "180 students"
+  },
+  {"courseimg": "https://media.istockphoto.com/id/944039072/photo/young-student-writing-with-chalk-on-green-chalk-board-in-classroom.jpg?s=612x612&w=0&k=20&c=wd-QX_BMvWrTgM3frO4fQ6R29CuNN7tG1T5OZwyrOfc=",
+    "Category": "Math & Logic",
+    "description": "Master problem-solving skills and logical reasoning",
+    "userdp": "https://tabler.io/_next/image?url=%2Favatars%2Fdefault%2F8654c911c90383bb42a6cdddd66014c5.png&w=280&q=75",
+    "username": "Sarah Thompson",
+    "userposition": "Mathematics Educator",
+    "lessons": "24 lessons",
+    "students": "90 students"
+  }
+,  
+  {"courseimg":"https://media.istockphoto.com/id/1045440394/photo/high-school-students-playing-in-school-orchestra-together.jpg?s=612x612&w=0&k=20&c=rdeQPfVi0QnnQ0QclbPYPDzdvyCnGPNK3O3JiT-KNHM=",
+    "Category": "Music & Audio",
+    "description": "Learn how to produce and mix your own music",
+    "userdp": "https://tabler.io/_next/image?url=%2Favatars%2Fdefault%2F098d5b19a0870d95bee0cdbcef632be1.png&w=280&q=75",
+    "username": "Emma Brown",
+    "userposition": "Music Producer",
+    "lessons": "15 lessons",
+    "students": "45 students"
+  }
+]

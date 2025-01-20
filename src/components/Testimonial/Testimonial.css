@@ -1,0 +1,165 @@
+.testimonial {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fef8f5;
+    /* Uncomment the background gradient if needed */
+    /* background: linear-gradient(340deg, #ffeac2 15%, #b3e5e6 40%,#fef8f5 55% ); */
+}
+
+.testimonial-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+.testimonial-wrapper .testimonial-heading{
+    margin-bottom: 2rem;
+}
+.testimonial-wrapper .testimonial-heading span{
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+    font-family: var(--font-family-1);
+
+}
+.testimonial-wrapper .testimonial-heading h1{
+    text-align: start;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+    line-height: 3.6rem;
+    font-weight: 600;
+    font-family: var(--font-family-4);
+    color: var(--kappel);
+}
+
+.testimonial-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    padding: 2rem;
+    background-color: var(--white-1); 
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 1.5rem;
+    height: 450px;
+}
+
+.student-profile-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.student-profile-img img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%; 
+}
+
+.student-message-container {
+    flex: 2;
+    padding: 1.5rem;
+}
+
+.student-message-container h1 {
+    font-size: 2.8rem;
+    color: #333333;
+    margin-bottom: 1rem;
+    font-family: var(--font-family-3);
+}
+
+.student-message-container p {
+    font-size: 1.2rem;
+    color: #555555;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-family-1);
+}
+
+.student-message-container span {
+    font-size: 1rem;
+    color: #888888;
+    font-style: italic;
+    font-family: var(--font-family-1);
+}
+
+/* Navigation Arrows */
+.navigate-arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.navigate-arrow svg {
+    cursor: pointer;
+    font-size: 2.8rem;
+    transition: transform 0.2s;
+    background-color: #dbf9f3;
+    padding: 4px;
+    border-radius:26px ;
+}
+
+.navigate-arrow svg:hover {
+    transform: scale(1.1);
+    color: var(--kappel);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .testimonial-wrapper .testimonial-heading span{
+        font-size: 16px;
+    }
+    .testimonial-wrapper .testimonial-heading h1{
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+    .testimonial-item {
+        flex-direction: column;
+        padding: 1.5rem;
+        height: auto;
+    }
+
+    .student-profile-img {
+        margin-bottom: 1rem;
+    }
+
+    .student-profile-img img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .student-message-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .student-message-container p {
+        font-size: 1rem;
+    }
+    .navigate-arrow svg {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .student-message-container h1 {
+        font-size: 1.2rem;
+    }
+
+    .student-message-container p {
+        font-size: 0.9rem;
+    }
+
+    .navigate-arrow {
+        font-size: 1rem;
+    }
+}
